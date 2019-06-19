@@ -7,6 +7,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import ElementNotVisibleException
 
+# created by genjitsuCode FURKANTURKAN
+
 browser = webdriver.Chrome("chromedriver.exe")
 browser.get('https://m.facebook.com/ufi/reaction/profile/browser/?ft_ent_identifier=10156570369232217') # mobile facebook like screen, you can change and use here
 
